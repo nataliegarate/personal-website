@@ -38,6 +38,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 
 .skills-page{
@@ -51,6 +52,12 @@
   justify-content: space-around;
 }
 
-.skills-title{
+.skills-title, #about-paragraph-header, .projects-title{
   font-size: 30px;
+}
+
+.projects-page{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
