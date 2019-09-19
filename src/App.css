@@ -9,6 +9,20 @@
 .about-page{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.about-item-container-photo{
+  flex-basis: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-item-container-paragraph{
+  flex-basis: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
