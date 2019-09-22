@@ -70,13 +70,14 @@
   padding-top: 100px;
   padding-bottom: 100px;
   flex-direction: column;
+  align-content: space-around;
+  align-items: center;
 }
 
 .all-project-items-container{
   display: flex;
   flex-direction: row;
   padding: 0px;
-  justify-content: flex-start;
   width: 90%;
   flex-wrap: wrap;
 }
@@ -87,7 +88,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 33%
+  flex-basis: 33%;
+  padding-top: 20px;
 }
 
 .projects-page{
@@ -101,7 +103,6 @@
   flex-basis: 100%;
 }
 
-/* .single-text-item{
-  height: 200px;
-  width: 200px;
-} */
+.single-sub-item{
+  padding-bottom: 20px;
+}
