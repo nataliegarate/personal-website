@@ -9,29 +9,44 @@ function Projects() {
       <div className='all-project-items-container'>
         <div className='project-item'>
           <div className='single-sub-item'>
-          <img src="./BestCupcakes.png" className='project-photo'/>
+            <img src="./BestCupcakes.png" className='project-photo' />
           </div>
           <div className='single-text-item'>
-            Best Cupcakes (E-commerece site)
-            <br/> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blah
+            <div className='project-title'>Best Cupcakes</div>
+            <div className='project-description'>
+            E-Commerce website with a store inventory, shopping cart, and checkout
+            </div>
+            <div className='project-tech'>
+            Technologies: JavaScript, Node, React, Redux, Express, and Sequelize with PostgreSQL
+            </div>
           </div>
         </div>
         <div className='project-item'>
           <div className='single-sub-item'>
-          <img src="./MusicMapper.png" className='project-photo'/>
+            <img src="./MusicMapper.png" className='project-photo' />
           </div>
           <div className='single-text-item'>
-          Music Mapper (Data Visualization Site)
-            <br/> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blah
+            <div className='project-title'>Music Mapper</div>
+            <div className='project-description'>
+              Data visualization website that displays a Spotify user’s musical preferences with various colorful graphs
+              </div>
+              <div className='project-tech'>
+              Technologies: Javascript, Node, d3, React, Redux, Express, Spotify API, and Musixmatch API
+            </div>
           </div>
         </div>
         <div className='project-item'>
           <div className='single-sub-item'>
-          <img src="./NameThatDog.png" className='project-photo'/>
+            <img src="./NameThatDog.png" className='project-photo' />
           </div>
           <div className='single-text-item'>
-          Name That Dog (Drag and Drop Matching Game)
-            <br/> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blah
+            <div className='project-title'> Name That Dog</div>
+            <div className='project-description'>
+              Matching Game for learning dog breeds
+              </div>
+              <div className='project-tech'>
+              Technologies:  Javascript, Node, Vue, and Firebase
+             </div>
           </div>
         </div>
       </div>

@@ -80,6 +80,7 @@
   padding: 0px;
   width: 90%;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 
@@ -123,3 +124,11 @@
 .single-text-item{
   width: 400px;
 }
+
+.project-title{
+  text-align: center;
+}
+
+/* .project-description{
+  font-style: italic;
+} */
