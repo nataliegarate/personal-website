@@ -111,8 +111,13 @@
   height: 250px;
   width: 400px;
   border: 1.5px;
-  border-color: black;
+  border-color:lightblue;
   border-style: solid;
+
+}
+
+.project-photo:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.2);
 }
 
 .single-text-item{
