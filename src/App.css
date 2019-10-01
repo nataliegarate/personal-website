@@ -106,3 +106,15 @@
 .single-sub-item{
   padding-bottom: 20px;
 }
+
+.project-photo{
+  height: 250px;
+  width: 400px;
+  border: 1.5px;
+  border-color: black;
+  border-style: solid;
+}
+
+.single-text-item{
+  width: 400px;
+}

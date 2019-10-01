@@ -9,26 +9,29 @@ function Projects() {
       <div className='all-project-items-container'>
         <div className='project-item'>
           <div className='single-sub-item'>
-            <img src='https://picsum.photos/id/237/300/300'/>
+          <img src="./BestCupcakes.png" className='project-photo'/>
           </div>
           <div className='single-text-item'>
-            Desciption blah blah blah blah blah blah blah
+            Best Cupcakes (E-commerece site)
+            <br/> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blah
           </div>
         </div>
         <div className='project-item'>
           <div className='single-sub-item'>
-            <img src='https://picsum.photos/id/237/300/300'/>
+          <img src="./MusicMapper.png" className='project-photo'/>
           </div>
           <div className='single-text-item'>
-            Desciption blah blah blah blah blah blah blah
+          Music Mapper (Data Visualization Site)
+            <br/> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blah
           </div>
         </div>
         <div className='project-item'>
           <div className='single-sub-item'>
-            <img src='https://picsum.photos/id/237/300/300'/>
+          <img src="./NameThatDog.png" className='project-photo'/>
           </div>
           <div className='single-text-item'>
-            Desciption blah blah blah blah blah blah blah
+          Name That Dog (Drag and Drop Matching Game)
+            <br/> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blahblah blah blah blah blah blah blah
           </div>
         </div>
       </div>
