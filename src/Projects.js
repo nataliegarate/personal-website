@@ -4,7 +4,7 @@ function Projects() {
   return (
     <div className='projects-page'>
       <div className='projects-title'>
-        Projects:
+        Projects
       </div>
       <div className='all-project-items-container'>
         <div className='project-item'>

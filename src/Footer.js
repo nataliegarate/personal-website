@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='footer-container'>
       <div className='footer-title'>
-        Contact:
+        Contact
         <br/>
       </div>
       <div className='footer-contact-container'>

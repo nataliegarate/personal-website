@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className='skills-page'>
       <div className='skills-title'>
-        Skills:
+        Skills
       </div>
       <div className='skills-item'>
         Proficient: Javascript, React, Redux, Node, Express, Sequelize with Postgres, GitHub
