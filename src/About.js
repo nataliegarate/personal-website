@@ -8,7 +8,7 @@ function App() {
 
  <div
           className='about-item-container-paragraph'>
-                   <img src='./circle.png' />
+                   <img alt= 'Natalie Garate'src='./circle.png' />
 <br/>
           <div id='about-paragraph-header'>
           About
@@ -24,12 +24,6 @@ function App() {
 
 
         </div>
-
-
-       {/* <div className='about-item-container-paragraph'> */}
-
-         {/* <img src='./circle.png' /> */}
-         {/* </div> */}
 
 
 
