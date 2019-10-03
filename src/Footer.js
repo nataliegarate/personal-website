@@ -8,7 +8,7 @@ function Footer() {
         <br />
       </div>
       <div className='footer-contact-container'>
-        <div className='footer-item'>
+        <div className='footer-item' id ='email'>
         <a href = "mailto: natalieegarate@gmail.com">
           <i class="fa fa-envelope" aria-hidden="true"></i>
          </a>

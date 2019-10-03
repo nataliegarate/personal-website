@@ -103,9 +103,9 @@ body{
 }
 
 .project-photo{
-  height: 200px;
-  width: 300px;
-  border: 1.5px;
+  height: 190px;
+  width: 310px;
+  border: 1.2px;
   border-color: lightslategray;
   border-style: solid;
 
@@ -116,7 +116,7 @@ body{
 }
 
 .single-text-item{
-  width: 400px;
+  width: 320px;
 }
 
 .project-title{
