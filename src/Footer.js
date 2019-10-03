@@ -9,8 +9,9 @@ function Footer() {
       </div>
       <div className='footer-contact-container'>
         <div className='footer-item'>
+        <a href = "mailto: natalieegarate@gmail.com">
           <i class="fa fa-envelope" aria-hidden="true"></i>
-
+         </a>
         </div>
         <a href='https://www.linkedin.com/in/natalie-garate/' target="_blank">
         <div className='footer-item'>
