@@ -1,3 +1,7 @@
+body{
+  font-family: 'Vollkorn', serif;
+}
+
 .nav-list{
   display: flex;
   flex-direction: row;
@@ -26,16 +30,11 @@
   align-items: center;
   margin-top: 50px;
   flex-wrap: wrap;
-  padding-top: 50px;
-  padding-bottom: 50px;
-
-
 }
 
 #about-paragraph{
-  width: 110%;
+  width: 150%;
   font-size: 100%;
-  /* background-color: lightblue; */
 }
 
 .about-item-container-photo{
@@ -52,18 +51,7 @@
   flex-direction: column;
 }
 
-.skills-page {
-  /* background-color: lightblue; */
-  /* padding: 100px; */
-  /* font-size: 20px; */
-  /* color: white; */
-  /* -webkit-text-stroke: 1px black; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.skills-title, .projects-title, .footer-title, #about-paragraph-header{
+.projects-title, .footer-title, #about-paragraph-header{
   font-size: 30px;
 }
 
@@ -73,7 +61,7 @@
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   flex-direction: column;
   align-content: space-around;
   align-items: center;
@@ -84,8 +72,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0px;
-  width: 90%;
+  width: 80%;
   flex-wrap: wrap;
   align-items: flex-start;
 }
@@ -97,7 +84,7 @@
   justify-content: center;
   align-items: center;
   flex-basis: 33%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .projects-page{
@@ -137,7 +124,7 @@
 }
 
 .footer-container{
-  padding: 50px;
+  padding: 30px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -152,6 +139,3 @@
   font-size: 40px;
 }
 
-#skills{
-  width: 110%
-}
