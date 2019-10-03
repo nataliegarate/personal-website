@@ -123,7 +123,7 @@ body{
   text-align: center;
 }
 
-.footer-container{
+#footer-container{
   padding: 30px;
   font-size: 20px;
   display: flex;
@@ -139,3 +139,14 @@ body{
   font-size: 40px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkblue;
+}
