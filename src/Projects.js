@@ -9,7 +9,9 @@ function Projects() {
       <div className='all-project-items-container'>
         <div className='project-item'>
           <div className='single-sub-item'>
+          <a href= 'http://cupcake-shop-app.herokuapp.com/' target="_blank">
             <img src="./BestCupcakes.png" className='project-photo' />
+            </a>
           </div>
           <div className='single-text-item'>
             <div className='project-title'>Best Cupcakes</div>
@@ -23,7 +25,9 @@ function Projects() {
         </div>
         <div className='project-item'>
           <div className='single-sub-item'>
+            <a href ='https://spotify-music-mapper.herokuapp.com/app' target="_blank">
             <img src="./MusicMapper.png" className='project-photo' />
+            </a>
           </div>
           <div className='single-text-item'>
             <div className='project-title'>Music Mapper</div>
@@ -37,7 +41,9 @@ function Projects() {
         </div>
         <div className='project-item'>
           <div className='single-sub-item'>
+            <a href='http://dogapp.nataliegarate.com/#/' target="_blank">
             <img src="./NameThatDog.png" className='project-photo' />
+            </a>
           </div>
           <div className='single-text-item'>
             <div className='project-title'> Name That Dog</div>
