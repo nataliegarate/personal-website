@@ -9,9 +9,11 @@ import Footer from './Footer'
 function App() {
   return (
     <div>
+
       <Navigation/>
+
       <About/>
-      <Skills/>
+      {/* <Skills/> */}
       <Projects/>
       <Footer/>
     </div>

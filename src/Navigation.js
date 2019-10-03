@@ -6,9 +6,10 @@ function Navigation (){
     <div className='nav'>
     <div className='nav-header'> <div id='nav-header-text'>Natalie Garate</div></div>
       <ul className='nav-list'>
-        <li>About</li>
+
         <li>Resume</li>
-        <li>Projects</li>
+
+        <li>Contact</li>
       </ul>
     </div>
   );

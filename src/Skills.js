@@ -3,6 +3,7 @@ import React from 'react'
 function Skills() {
   return (
     <div className='skills-page'>
+    <center>
       <div className='skills-title'>
         Skills
       </div>
@@ -12,7 +13,7 @@ function Skills() {
       <div className='skills-item'>
         Familiar: d3, Vue.js, Mocha, Chai
       </div>
-
+</center>
     </div>
   );
 }
