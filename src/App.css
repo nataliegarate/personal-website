@@ -129,6 +129,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-contact-container{
@@ -137,6 +138,7 @@ body{
   justify-content: space-around;
   width: 15%;
   font-size: 40px;
+  flex-wrap: wrap;
 }
 
 a {
