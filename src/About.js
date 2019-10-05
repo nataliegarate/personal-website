@@ -14,7 +14,7 @@ function App() {
           About
           </div>
           <div id='about-paragraph'>
-            Hello World! I am a fullstack developer living in New York City and a recent graduate of the Grace Hopper Program at Fullstack Academy. Before coding, my background was in solving people problems- I studied psychology and worked in employee engagenment at a tech company. I'm really excited to be transitioning into the world of tech.
+            Hello World! I am a fullstack developer living in New York City and a recent graduate of the Grace Hopper Program at Fullstack Academy. Before coding, my background was in solving people problems- I studied psychology and worked in employee engagement at a tech company. I'm really excited to be transitioning into the world of tech.
             <br/>
             <br/>
             <div id='skills'>
