@@ -1,1 +1,1 @@
-Deployed at nataliegarate.com 
+Deployed at www.nataliegarate.com 
