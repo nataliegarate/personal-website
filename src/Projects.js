@@ -25,7 +25,7 @@ function Projects() {
         </div>
         <div className='project-item'>
           <div className='single-sub-item'>
-            <a href ='https://spotify-music-mapper.herokuapp.com/app' target="_blank" rel="noopener noreferrer">
+            <a href ='https://spotify-music-mapper.herokuapp.com' target="_blank" rel="noopener noreferrer">
             <img alt='project photo' src="./MusicMapper.png" className='project-photo' />
             </a>
           </div>
