@@ -1,60 +1,34 @@
 import React from 'react'
 
 function Projects() {
+  let projects = [ {name: 'Best Cupcakes', description:'E-Commerce website with a store inventory, shopping cart, and checkout feature', technologies: 'JavaScript, Node, React, Redux, Express, and Sequelize with PostgreSQL', imageUrl:"./BestCupcakes.png", imageAlt: 'photo of cupcake website', link: 'http://cupcake-shop-app.herokuapp.com/'},
+  {name: 'Music Mapper', description: 'Data visualization website that displays a Spotify user’s musical preferences with various colorful graphs', technologies: 'Javascript, Node, d3, React, Redux, Express, Spotify API, and Musixmatch API', imageUrl: './MusicMapper.png', imageAlt: 'Photo of music website', link: 'https://spotify-music-mapper.herokuapp.com'},
+  {name: 'Name That Dog', description: 'A drag and drop matching game for learning dog breeds', technologies: 'Javascript, Node, Vue, and Firebase', imageUrl: './NameThatDog.png', imageAlt: 'Photo of dog website', link: 'http://dogapp.nataliegarate.com/#/' }
+ ]
   return (
     <div className='projects-page'>
       <div className='projects-title'>
         Projects
       </div>
       <div className='all-project-items-container'>
-        <div className='project-item'>
-          <div className='single-sub-item'>
-          <a href= 'http://cupcake-shop-app.herokuapp.com/' target="_blank" rel="noopener noreferrer">
-            <img alt='project photo'src="./BestCupcakes.png" className='project-photo' />
-            </a>
-          </div>
-          <div className='single-text-item'>
-            <div className='project-title'>Best Cupcakes</div>
-            <div className='project-description'>
-            E-Commerce website with a store inventory, shopping cart, and checkout
-            </div>
-            <div className='project-tech'>
-            Technologies: JavaScript, Node, React, Redux, Express, and Sequelize with PostgreSQL
-            </div>
-          </div>
-        </div>
-        <div className='project-item'>
-          <div className='single-sub-item'>
-            <a href ='https://spotify-music-mapper.herokuapp.com' target="_blank" rel="noopener noreferrer">
-            <img alt='project photo' src="./MusicMapper.png" className='project-photo' />
-            </a>
-          </div>
-          <div className='single-text-item'>
-            <div className='project-title'>Music Mapper</div>
-            <div className='project-description'>
-              Data visualization website that displays a Spotify user’s musical preferences with various colorful graphs
-              </div>
-              <div className='project-tech'>
-              Technologies: Javascript, Node, d3, React, Redux, Express, Spotify API, and Musixmatch API
-            </div>
-          </div>
-        </div>
-        <div className='project-item'>
-          <div className='single-sub-item'>
-            <a href='http://dogapp.nataliegarate.com/#/' target="_blank" rel="noopener noreferrer">
-            <img alt='project photo' src="./NameThatDog.png" className='project-photo' />
-            </a>
-          </div>
-          <div className='single-text-item'>
-            <div className='project-title'> Name That Dog</div>
-            <div className='project-description'>
-              Matching Game for learning dog breeds
-              </div>
-              <div className='project-tech'>
-              Technologies:  Javascript, Node, Vue, and Firebase
+       {projects.map(project => (
+          <div className='project-item'>
+           <div className='single-sub-item'>
+             <a href= {project.link} target="_blank" rel="noopener noreferrer">
+               <img alt={project.imageAlt} src={project.imageUrl} className='project-photo' />
+             </a>
+           </div>
+           <div className='single-text-item'>
+             <div className='project-title'>{project.name}</div>
+             <div className='project-description'>
+              {project.description}
              </div>
-          </div>
-        </div>
+             <div className='project-tech'>
+               Technologies: {project.technologies}
+             </div>
+           </div>
+         </div>
+      ))}
       </div>
     </div>
   );
