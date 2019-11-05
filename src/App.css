@@ -10,12 +10,15 @@ body{
   padding-left: 100px;
   padding-right: 100px;
   flex-wrap: wrap;
+
 }
 
 .nav-header{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  ;
+
 }
 
 #nav-header-text{
@@ -71,7 +74,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 80%;
+  width: 60%;
   flex-wrap: wrap;
   align-items: flex-start;
 }
@@ -82,14 +85,14 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 33%;
+  flex-basis: 50%;
   margin-top: 10px;
 }
 
 .projects-page{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
