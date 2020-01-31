@@ -35,7 +35,7 @@ body{
 }
 
 #about-paragraph{
-  width: 150%;
+  width: 170%;
   font-size: 100%;
 }
 
@@ -57,12 +57,16 @@ body{
   font-size: 30px;
 }
 
+.project-description, .project-tech{
+  font-size: 14px;
+}
+
 .projects-page{
   display: flex;
   justify-content: space-between;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 50px;
   flex-direction: column;
   align-content: space-around;
@@ -84,8 +88,8 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 33%;
-  margin-top: 10px;
+  flex-basis: 30%;
+  margin: 6px;
 }
 
 #music{
@@ -108,8 +112,8 @@ body{
 }
 
 .project-photo{
-  height: 190px;
-  width: 310px;
+  height: 170px;
+  width: auto;
   border: 1px;
   border-color: black;
   border-style: solid;
@@ -129,6 +133,7 @@ body{
 
 #contact{
   padding: 30px;
+  padding-top: 15px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -157,6 +162,41 @@ a:hover {
 }
 
 
+@media screen and (max-width: 900px) {
+  .about-item-container-paragraph{
+    flex-basis: 78%;
+  }
+  #about-paragraph{
+    width:100%;
+  }
+
+  .all-project-items-container{
+    width: 90%;
+  }
+
+  .project-photo{
+    height: 170px;
+    width: auto;
+  }
+  .nav-list{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .projects-page{
+    margin-bottom: 25px;
+  }
+
+  .about-page{
+    margin-top: 25px;
+
+  }
+
+  #contact{
+    padding:15px;
+  }
+
+}
+
 /* mobile */
 @media screen and (max-width: 450px) {
   #nav-header-text{
@@ -178,10 +218,10 @@ a:hover {
   }
   #about-paragraph{
     width:100%;
-    font-size: 13px; 
+    font-size: 14px; 
   }
   .nav-list, .project-description, .project-tech{
-    font-size: 13px;
+    font-size: 14px;
   }
   .about-page{
     margin: 5px;
@@ -202,5 +242,8 @@ a:hover {
   #contact{
     padding:15px;
   }
+
+
+
 
 }
