@@ -8,8 +8,10 @@ import Footer from './Footer'
 function App() {
   return (
     <div>
+      <div className='home-page'>
       <Navigation/>
       <About/>
+      </div>
       <Projects/>
       <Footer/>
     </div>
