@@ -20,17 +20,25 @@ body{
   flex-direction: column;
   align-items: center;
 }
-
+.nav{
+  flex-basis: 25%;
+  width:100%;
+  background-image: url("https://media.istockphoto.com/photos/tropical-banana-palm-leaf-picture-id903532512?k=6&m=903532512&s=612x612&w=0&h=k6IKlljsLWJcufq2Sk3MlzdlCW71Nx50QyoAhPYtN-Y=");
+  position: fixed; 
+}
 .nav-header{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  ;
+  font-size:550%;
+  padding: 10px;
+  margin: 0px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
-#nav-header-text{
-  font-size:350%;
-  padding: 10px;
+#hello-world{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -43,12 +51,12 @@ body{
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 8% }
 }
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color:grey; }
 }
 .about-page{
   display: flex;
@@ -57,11 +65,18 @@ body{
   align-items: center;
   flex-wrap: wrap;
   width: inherit;
+  margin-top: 100px;
+  height: inherit;
 }
 
 #about-paragraph{
-  width: 50%;
-  font-size: 100%;
+  text-align: center;
+  width: 70%;
+  font-size: 5vh;
+}
+#skills{
+  font-size: 3vh;
+  text-align: center;
 }
 
 .about-item-container-photo{
@@ -69,8 +84,6 @@ body{
   display: flex;
   justify-content: space-around;
 }
-
-
 
 .projects-title, .footer-title, #about-paragraph-header{
   font-size: 30px;
@@ -80,12 +93,11 @@ body{
   font-size: 14px;
 }
 
-.projects-page{
+#projects-page{
   display: flex;
   justify-content: space-between;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 70px;
   margin-bottom: 50px;
   flex-direction: column;
   align-content: space-around;
@@ -115,7 +127,7 @@ body{
   flex-basis: 100%;
 }
 
-.projects-page{
+#projects-page{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,13 +192,24 @@ a:hover {
   color: darkblue;
 }
 
+#about-me{
+  width:70%;
+}
 
 @media screen and (max-width: 900px) {
+  #nav-header-text{
+    font-size:70px;
+  }
   .about-item-container-paragraph{
     flex-basis: 78%;
   }
+
+  .about-page{
+    padding-top: 50px;
+  }
   #about-paragraph{
     width:100%;
+    font-size: 3vh;
   }
 
   .all-project-items-container{
@@ -201,7 +224,13 @@ a:hover {
     padding-left: 7px;
     padding-right: 7px;
   }
-  .projects-page{
+
+  #skills{
+    font-size: 3vh;
+    text-align: center;
+  
+  }
+  #projects-page{
     margin-bottom: 25px;
   }
 
@@ -219,14 +248,13 @@ a:hover {
 /* mobile */
 @media screen and (max-width: 450px) {
   #nav-header-text{
-    font-size:30px;
+    font-size:50px;
   }
 
   .nav-list{
     padding-left: 5px;
     padding-right: 5px;
   }
-
   .about-item-container-paragraph{
     flex-basis: 90%;
   }
@@ -237,13 +265,17 @@ a:hover {
   }
   #about-paragraph{
     width:100%;
-    font-size: 14px; 
+    font-size: 20px; 
+  }
+
+  #skills{
+    font-size: 15px;
   }
   .nav-list, .project-description, .project-tech{
     font-size: 14px;
   }
   .about-page{
-    margin: 5px;
+    padding: 10px;
   }
   .project-photo{
     height: 170px;
@@ -254,15 +286,12 @@ a:hover {
     font-size: 25px;
   }
 
-  .projects-page{
+  #projects-page{
     margin: 15px;
   }
 
   #contact{
     padding:15px;
   }
-
-
-
 
 }

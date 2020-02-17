@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div id='contact'>
       <div className='footer-title'>
-        Contact
+        Let's Chat
         <br />
       </div>
       <div className='footer-contact-container'>
