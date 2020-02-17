@@ -20,11 +20,15 @@ body{
   align-items: center;
 }
 .nav{
-  flex-basis: 25%;
+  flex-basis: 40%;
   width:100%;
   background-image: url("https://images.unsplash.com/photo-1581666044570-e5e34d29ee34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2708&q=80");
-  position: fixed; 
-  filter: drop-shadow(.5px .5px .5px black)
+  /* position: fixed;  */
+  filter: drop-shadow(.5px .5px .5px black);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .nav-header{
   display: flex;
@@ -64,8 +68,9 @@ body{
   align-items: center;
   flex-wrap: wrap;
   width: inherit;
-  margin-top: 100px;
+  /* margin-top: 150px; */
   height: inherit;
+  padding: 0px;
 }
 
 #about-paragraph{
@@ -197,8 +202,11 @@ a:hover {
 
 @media screen and (max-width: 900px) {
   #nav-header-text{
-    font-size:70px;
+    font-size:72px;
   }
+ .nav{
+   height: 200px;
+ }
   .about-item-container-paragraph{
     flex-basis: 78%;
   }
@@ -235,7 +243,6 @@ a:hover {
 
   .about-page{
     margin-top: 25px;
-
   }
 
   #contact{
@@ -247,7 +254,7 @@ a:hover {
 /* mobile */
 @media screen and (max-width: 450px) {
   #nav-header-text{
-    font-size:50px;
+    font-size:45px;
   }
 
   .nav-list{
