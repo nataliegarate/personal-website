@@ -22,7 +22,7 @@ body{
 .nav{
   flex-basis: 25%;
   width:100%;
-  background-image: url("https://images.unsplash.com/photo-1581666044570-e5e34d29ee34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3008&q=80");
+  background-image: url("https://images.unsplash.com/photo-1581666044570-e5e34d29ee34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2708&q=80");
   position: fixed; 
   filter: drop-shadow(.5px .5px .5px black)
 }
