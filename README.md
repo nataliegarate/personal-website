@@ -1,4 +1,5 @@
-<h1>Portfolio Website</h1>
+<h1>Portfolio Website: Natalie Garate</h1>
+<p> This is a React app to display my skills and projects. </p>
 
 <h3>Getting started </h3>
 <ol>
