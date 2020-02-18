@@ -2,16 +2,6 @@ body{
   font-family: 'Vollkorn', serif;
 }
 
-.nav-list{
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: space-around;
-  padding-left: 100px;
-  padding-right: 100px;
-  flex-wrap: wrap;
-}
-
 .home-page{
   height:100vh;
   width: 100%;
@@ -19,26 +9,48 @@ body{
   flex-direction: column;
   align-items: center;
 }
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgba(75, 75, 75, 0.5);
+  font-size: 4vh;
+}
+
+.nav a{
+  color: white;
+}
 .nav{
-  flex-basis: 40%;
   width:100%;
   background-image: url("https://images.unsplash.com/photo-1581666044570-e5e34d29ee34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2708&q=80");
-  /* position: fixed;  */
   filter: drop-shadow(.5px .5px .5px black);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  height: inherit;
+  color: white;
+}
+
+.nav-header{
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.nav-header{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size:550%;
   padding: 10px;
   margin: 0px;
-  color: white;
   text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#nav-header-text{
+  font-size:13vh;
+}
+#nav-header-subtext{
+  font-size:7vh;
 }
 
 #hello-world{
@@ -68,8 +80,7 @@ body{
   align-items: center;
   flex-wrap: wrap;
   width: inherit;
-  /* margin-top: 150px; */
-  height: inherit;
+  height: 100vh;
   padding: 0px;
 }
 
@@ -77,6 +88,11 @@ body{
   text-align: center;
   width: 70%;
   font-size: 5vh;
+}
+
+#about-content {
+  width: 50%;
+  font-size: 2vh;
 }
 #skills{
   font-size: 3vh;
