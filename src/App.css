@@ -80,7 +80,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   width: inherit;
   height: 100vh;
   padding: 0px;
@@ -237,6 +236,9 @@ a:hover {
     flex-basis: 78%;
   }
 
+  #about-content{
+    width: 80%;
+  }
   .about-page{
     margin: 0px;
     padding: 0px;
@@ -289,8 +291,8 @@ a:hover {
     width: auto;
   }
   #about-paragraph{
-    width:90%;
-    font-size: 30px; 
+    width:100%;
+    font-size: 4vh; 
   }
 
   #skills{
@@ -315,7 +317,7 @@ a:hover {
   }
 
   #about-paragraph-header, .projects-title, .footer-title{
-    font-size: 25px;
+    font-size: 4vh;
   }
 
   #projects-page{
