@@ -8,7 +8,9 @@
 <li> npm run start</li>
 </ol>
 
+<h3>Create an optimized build</h3>
+<ol>
+<li>npm run build</li>
+</ol>
 
-
- 
- Deployed at: www.nataliegarate.com 
+Deployed at: www.nataliegarate.com 
