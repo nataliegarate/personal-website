@@ -14,20 +14,22 @@ body{
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%;
-  background-color: rgba(75, 75, 75, 0.5);
+  background-color: rgba(33,33,33,.4);
   font-size: 4vh;
+  /* position: fixed;
+  top: 0; */
 }
 
-.nav a{
-  color: white;
+.nav-list li{
+  padding: 9px;
 }
+
 .nav{
   width:100%;
-  background-image: url("https://images.unsplash.com/photo-1581666044570-e5e34d29ee34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2708&q=80");
-  filter: drop-shadow(.5px .5px .5px black);
+  background-image: url("https://images.unsplash.com/photo-1533239592469-733074d9b7a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,13 +218,21 @@ a:hover {
   width:70%;
 }
 
+.nav-list a{
+ color: white;
+}
+.nav-list a:hover{
+  color: gray;
+ }
+
+.nav-list a:visited {
+  color: white;
+}
 @media screen and (max-width: 900px) {
   #nav-header-text{
     font-size:72px;
   }
- .nav{
-   height: 200px;
- }
+
   .about-item-container-paragraph{
     flex-basis: 78%;
   }
@@ -233,7 +243,7 @@ a:hover {
   }
   #about-paragraph{
     width:100%;
-    font-size: 3vh;
+    font-size: 30px;
   }
 
   .all-project-items-container{
@@ -244,10 +254,7 @@ a:hover {
     height: 170px;
     width: auto;
   }
-  .nav-list{
-    padding-left: 7px;
-    padding-right: 7px;
-  }
+
 
   #skills{
     font-size: 3vh;
@@ -269,11 +276,10 @@ a:hover {
   #nav-header-text{
     font-size:45px;
   }
+  #nav-header-subtext {
+    font-size: 4vh;
+}
 
-  .nav-list{
-    padding-left: 5px;
-    padding-right: 5px;
-  }
   .about-item-container-paragraph{
     flex-basis: 90%;
   }
@@ -284,18 +290,24 @@ a:hover {
   }
   #about-paragraph{
     width:90%;
-    font-size: 20px; 
+    font-size: 30px; 
   }
 
   #skills{
     font-size: 15px;
   }
-  .nav-list, .project-description, .project-tech{
+  .project-description, .project-tech{
     font-size: 14px;
+  }
+  .nav-list{
+    font-size: 20px;
   }
   .about-page{
     padding: 0px;
     margin: 0px;
+  }
+  #about-content{
+    width: 85%;
   }
   .project-photo{
     height: 170px;

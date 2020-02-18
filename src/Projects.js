@@ -12,7 +12,8 @@ function Projects() {
   return (
     <div id='projects-page'>
       <div className='projects-title'>
-        Projects
+
+      Projects
       </div>
       <div className='all-project-items-container'>
        {projects.map(project => (
