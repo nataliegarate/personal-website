@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
+import { useEffect } from "react";
 
 function Navigation() {
   return (
-    <div className="nav">
+    <div className="nav" id="nav">
       <div className="nav-list">
         <li>
           {" "}
@@ -19,7 +20,9 @@ function Navigation() {
         </li>
       </div>
       <div className="nav-header">
-        <div id="nav-header-text">Hi, I'm Natalie.</div>
+        <div id="nav-header-text">
+          Hi, I'm <span id="name">Natalie</span>.
+        </div>
         <div id="nav-header-subtext">I write code.</div>
       </div>
     </div>
