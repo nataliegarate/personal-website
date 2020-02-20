@@ -15,17 +15,6 @@ function Projects() {
       link: "https://github.com/nataliegarate/gratitude-tracker"
     },
     {
-      id: "alternate",
-      status: "Sole Developer",
-      name: "Alternate Portfolio",
-      description:
-        "An alternate portfolio website that displays my skills and projects.",
-      technologies: "JavaScript, Node, React, React-MDL",
-      imageUrl: "./AlternatePortfolio.png",
-      imageAlt: "Photo of Alternate Portfolio website",
-      link: "https://github.com/nataliegarate/alternate_portfolio"
-    },
-    {
       id: "music",
       status: "Group Project",
       name: "Music Mapper",
@@ -48,17 +37,6 @@ function Projects() {
       imageUrl: "./BestCupcakes.png",
       imageAlt: "photo of cupcake website",
       link: "http://cupcake-shop-app.herokuapp.com/"
-    },
-    {
-      id: "dog",
-      status: "Sole Developer",
-      name: "Name That Dog",
-      description:
-        "A drag and drop matching game for learning dog breeds. I had fun building this during a 4 day stackathon.",
-      technologies: "Javascript, Node, Vue, and Firebase",
-      imageUrl: "./NameThatDog.png",
-      imageAlt: "Photo of dog website",
-      link: "http://dogapp.nataliegarate.com/#/"
     }
   ];
   return (
