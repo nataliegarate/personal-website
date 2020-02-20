@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div id="contact">
       <div className="footer-title">
-        Let's Chat
+        Contact Me
         <br />
       </div>
       <div className="footer-contact-container">
@@ -32,6 +32,7 @@ function Footer() {
           </div>
         </a>
       </div>
+      <div id="built-by">Website Built by Natalie Garate &hearts;</div>
     </div>
   );
 }
