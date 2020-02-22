@@ -153,7 +153,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-basis: 30%;
-  margin: 6px;
+  margin: 15px;
 }
 
 #music {
@@ -162,6 +162,7 @@ body {
 
 #projects-page {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -177,7 +178,7 @@ body {
 
 .project-photo {
   height: auto;
-  width: 60vh;
+  width: 350px;
   border: 1px;
   border-color: black;
   border-style: solid;
@@ -256,10 +257,10 @@ a:visited {
     width: 90%;
   }
 
-  .project-photo {
+  /* .project-photo {
     height: 40vh;
     width: auto;
-  }
+  } */
 
   #skills {
     font-size: 3vh;
