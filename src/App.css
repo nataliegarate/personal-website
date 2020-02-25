@@ -310,7 +310,7 @@ a:visited {
   }
 
   #projects-page {
-    padding-top: 6vh;
+    padding-top: 7vh;
   }
   .project-description,
   .project-tech {
@@ -322,7 +322,7 @@ a:visited {
   .about-page {
     padding: 0px;
     margin: 0px;
-    padding-top: 5vh;
+    padding-top: 6vh;
   }
   #about-content {
     width: 85%;
