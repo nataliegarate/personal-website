@@ -13,20 +13,12 @@ function Footer() {
             <i class="fa fa-envelope" aria-hidden="true"></i>
           </a>
         </div>
-        <a
-          href="https://www.linkedin.com/in/natalie-garate/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.linkedin.com/in/natalie-garate/" target="_blank">
           <div className="footer-item">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </div>
         </a>
-        <a
-          href="https://github.com/nataliegarate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://github.com/nataliegarate" target="_blank">
           <div className="footer-item">
             <i class="fa fa-github-square" aria-hidden="true"></i>
           </div>
