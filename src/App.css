@@ -243,6 +243,11 @@ a:visited {
   color: #a6ded3;
 }
 
+@media screen and (max-width: 1140px) {
+  #projects-page {
+    padding-top: 2vh;
+  }
+}
 @media screen and (max-width: 900px) {
   #nav-header-text {
     font-size: 72px;
@@ -258,8 +263,8 @@ a:visited {
   .about-page {
     margin: 0px;
     padding: 0px;
-    height: 100%;
   }
+
   #about-paragraph {
     width: 100%;
     font-size: 30px;
@@ -272,9 +277,6 @@ a:visited {
   #skills {
     font-size: 3vh;
     text-align: center;
-  }
-  #projects-page {
-    margin-bottom: 25px;
   }
 
   #contact {
@@ -330,10 +332,6 @@ a:visited {
   .projects-title,
   .footer-title {
     font-size: 4vh;
-  }
-
-  #projects-page {
-    margin: 15px;
   }
 
   #contact {
