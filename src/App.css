@@ -245,7 +245,7 @@ a:visited {
 
 @media screen and (max-width: 1140px) {
   #projects-page {
-    padding-top: 2vh;
+    padding-top: 8vh;
   }
 }
 @media screen and (max-width: 900px) {
@@ -262,7 +262,7 @@ a:visited {
   }
   .about-page {
     margin: 0px;
-    padding: 0px;
+    padding: 2px;
   }
 
   #about-paragraph {
@@ -303,11 +303,14 @@ a:visited {
   }
   #about-paragraph {
     width: 100%;
-    font-size: 4vh;
   }
 
   #skills {
     font-size: 15px;
+  }
+
+  #projects-page {
+    padding-top: 6vh;
   }
   .project-description,
   .project-tech {
@@ -319,6 +322,7 @@ a:visited {
   .about-page {
     padding: 0px;
     margin: 0px;
+    padding-top: 5vh;
   }
   #about-content {
     width: 85%;
