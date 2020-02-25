@@ -24,7 +24,7 @@ function Projects() {
         "Javascript, Node, d3, React, Redux, Express, Spotify API, and Musixmatch API",
       imageUrl: "./MusicMapper.png",
       imageAlt: "Photo of music website",
-      link: "https://spotify-music-mapper.herokuapp.com"
+      link: "https://github.com/music-mapper/music-mapper"
     },
     {
       id: "cupcake",
@@ -36,7 +36,7 @@ function Projects() {
         "JavaScript, Node, React, Redux, Express, and Sequelize with PostgreSQL",
       imageUrl: "./BestCupcakes.png",
       imageAlt: "photo of cupcake website",
-      link: "http://cupcake-shop-app.herokuapp.com/"
+      link: "https://github.com/fantastic-four-grace-shopper/grace-shopper"
     }
   ];
   return (
