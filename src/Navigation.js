@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { useEffect } from "react";
 
 function Navigation() {
   return (
@@ -16,7 +15,7 @@ function Navigation() {
         </li>
         <li>
           {" "}
-          <a href="/n_garate_resume.pdf">Resume</a>{" "}
+          <a href="/Natalie_Garate_Resume">Resume</a>{" "}
         </li>
       </div>
       <div className="nav-header">
@@ -24,6 +23,23 @@ function Navigation() {
           Hi, I'm <span id="name">Natalie</span>.
         </div>
         <div id="nav-header-subtext">I write code.</div>
+        <div className="nav-contact-container">
+          <div className="footer-item" id="email">
+            <a href="mailto: natalieegarate@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+          <a href="https://www.linkedin.com/in/natalie-garate/" target="_blank">
+            <div className="footer-item">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+          </a>
+          <a href="https://github.com/nataliegarate" target="_blank">
+            <div className="footer-item">
+              <i class="fa fa-github-square" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   );
