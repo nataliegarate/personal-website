@@ -92,6 +92,7 @@ body {
   width: inherit;
   height: 100vh;
   padding: 0px;
+  border-bottom: 5px solid #f2faf8;
 }
 
 #about-paragraph {
@@ -135,7 +136,7 @@ body {
   align-content: space-around;
   align-items: center;
   min-height: 100vh;
-  background-color: #f2faf8;
+  /* background-color: #f2faf8; */
 }
 
 .all-project-items-container {
@@ -243,9 +244,18 @@ a:visited {
   color: #a6ded3;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1139px) {
   #projects-page {
     padding-top: 8vh;
+  }
+  .project-item {
+    flex-basis: 70%;
+  }
+  .project-photo {
+    width: 500px;
+  }
+  .single-text-item {
+    width: 500px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -281,6 +291,15 @@ a:visited {
 
   #contact {
     padding: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-photo {
+    width: 350px;
+  }
+  .single-text-item {
+    width: 350px;
   }
 }
 
