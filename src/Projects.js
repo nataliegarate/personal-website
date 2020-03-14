@@ -3,15 +3,26 @@ import React from "react";
 function Projects() {
   let projects = [
     {
+      id: "valleyInstallers",
+      status: "Contract Work",
+      name: "Valley Installers Inc",
+      description:
+        "Hired to create, design, and deploy new website for small buisness: Valley Installers Inc. This is currently under construction.",
+      technologies: "JavaScript, Node, React",
+      imageUrl: "./ValleyInstallers.png",
+      imageAlt: "Photo of Valley Installers website",
+      link: "https://github.com/Valley-Installers/valley-installers-website"
+    },
+    {
       id: "cupcake",
       status: "Group Project",
       name: "Best Cupcakes",
       description:
-        "An E-Commerce that sells delicious cupcakes. It has a store inventory, shopping cart, and checkout feature. It supports logged in users via database and guests via local storage. ",
+        "An E-Commerce site that sells delicious cupcakes. It has a store inventory, shopping cart, and checkout feature. It supports logged in users guests.",
       technologies:
         "JavaScript, Node, React, Redux, Express, and Sequelize with PostgreSQL",
       imageUrl: "./BestCupcakes.png",
-      imageAlt: "photo of cupcake website",
+      imageAlt: "Photo of Best Cupcakes website",
       link: "https://github.com/nataliegarate/grace-shopper"
     },
     {
@@ -35,7 +46,7 @@ function Projects() {
       technologies:
         "Javascript, Node, d3, React, Redux, Express, Spotify API, and Musixmatch API",
       imageUrl: "./MusicMapper.png",
-      imageAlt: "Photo of music website",
+      imageAlt: "Photo of Music Mapper website",
       link: "https://github.com/music-mapper/music-mapper"
     }
   ];

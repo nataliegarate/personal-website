@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f2faf8;
+  background-color: #f3faf9;
 }
 
 .nav-list {
@@ -50,6 +50,9 @@ body {
   color: #79cdbd;
 }
 
+#handshake {
+  font-size: 100px;
+}
 #nav-header-text {
   font-size: 13vh;
 }
@@ -92,7 +95,7 @@ body {
   width: inherit;
   height: 100vh;
   padding: 0px;
-  border-bottom: 5px solid #f2faf8;
+  border-bottom: 3px solid #f2faf8;
 }
 
 #about-paragraph {
@@ -117,8 +120,10 @@ body {
 }
 
 .projects-title,
-.footer-title,
 #about-paragraph-header {
+  font-size: 5vh;
+}
+.footer-title {
   font-size: 30px;
 }
 
@@ -136,7 +141,8 @@ body {
   align-content: space-around;
   align-items: center;
   min-height: 100vh;
-  /* background-color: #f2faf8; */
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .all-project-items-container {
@@ -157,9 +163,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 30%;
+  flex-basis: 40%;
   margin: 15px;
-  width: 350px;
 }
 
 #projects-page {
@@ -168,6 +173,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 15px;
 }
 
 #projects-title {
@@ -177,10 +183,13 @@ body {
 .single-sub-item {
   padding-bottom: 20px;
 }
+.single-text-item {
+  width: 450px;
+}
 
 .project-photo {
   height: auto;
-  width: 350px;
+  width: 450px;
   border: 1px;
   border-color: black;
   border-style: solid;
@@ -195,7 +204,7 @@ body {
 }
 
 #contact {
-  padding: 30px;
+  padding: 20px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -211,8 +220,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 150px;
-  font-size: 40px;
+  width: 125px;
+  font-size: 30px;
   color: #a6ded3;
 }
 
@@ -222,6 +231,10 @@ body {
 
 #about-me {
   width: 70%;
+}
+.nav-list a:hover {
+  border-bottom: 1px solid #a6ded3;
+  border-top: 1px solid #a6ded3;
 }
 
 a {
@@ -330,14 +343,16 @@ a:visited {
 
   #projects-page {
     padding-top: 7vh;
+    padding-bottom: 1vh;
   }
   .project-description,
   .project-tech {
-    font-size: 14px;
+    font-size: 12px;
   }
   .nav-list {
     font-size: 20px;
   }
+
   .about-page {
     padding: 0px;
     margin: 0px;
@@ -347,17 +362,22 @@ a:visited {
     width: 85%;
   }
   .project-photo {
-    height: 170px;
-    width: auto;
+    height: auto;
+    width: 278px;
   }
 
+  .single-text-item {
+    width: 278px;
+  }
   #about-paragraph-header,
   .projects-title,
   .footer-title {
     font-size: 4vh;
   }
-
+  #built-by {
+    font-size: 12px;
+  }
   #contact {
-    padding: 15px;
+    height: auto;
   }
 }

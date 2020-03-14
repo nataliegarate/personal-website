@@ -23,6 +23,7 @@ function Navigation() {
           Hi, I'm <span id="name">Natalie</span>.
         </div>
         <div id="nav-header-subtext">I write code.</div>
+
         <div className="nav-contact-container">
           <div className="footer-item" id="email">
             <a href="mailto: natalieegarate@gmail.com">
