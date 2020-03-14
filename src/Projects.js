@@ -3,6 +3,18 @@ import React from "react";
 function Projects() {
   let projects = [
     {
+      id: "cupcake",
+      status: "Group Project",
+      name: "Best Cupcakes",
+      description:
+        "An E-Commerce that sells delicious cupcakes. It has a store inventory, shopping cart, and checkout feature. It supports logged in users via database and guests via local storage. ",
+      technologies:
+        "JavaScript, Node, React, Redux, Express, and Sequelize with PostgreSQL",
+      imageUrl: "./BestCupcakes.png",
+      imageAlt: "photo of cupcake website",
+      link: "https://github.com/nataliegarate/grace-shopper"
+    },
+    {
       id: "gratitude",
       status: "Sole Developer",
       name: "Gratitude Master",
@@ -25,18 +37,6 @@ function Projects() {
       imageUrl: "./MusicMapper.png",
       imageAlt: "Photo of music website",
       link: "https://github.com/music-mapper/music-mapper"
-    },
-    {
-      id: "cupcake",
-      status: "Group Project",
-      name: "Best Cupcakes",
-      description:
-        "An E-Commerce that sells delicious cupcakes. It has a store inventory, shopping cart, and checkout feature. It supports logged in users via database and guests via local storage. ",
-      technologies:
-        "JavaScript, Node, React, Redux, Express, and Sequelize with PostgreSQL",
-      imageUrl: "./BestCupcakes.png",
-      imageAlt: "photo of cupcake website",
-      link: "https://github.com/fantastic-four-grace-shopper/grace-shopper"
     }
   ];
   return (
