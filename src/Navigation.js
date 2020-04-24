@@ -15,7 +15,9 @@ function Navigation() {
         </li>
         <li>
           {" "}
-          <a href="/Natalie_Garate_Resume.pdf">Resume</a>{" "}
+          <a target="blank" href="/Natalie_Garate_Resume.pdf">
+            Resume
+          </a>{" "}
         </li>
       </div>
       <div className="nav-header">
